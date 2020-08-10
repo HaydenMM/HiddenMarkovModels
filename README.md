@@ -1,6 +1,6 @@
 # learnhmm.py
 python learnhmm.py [args...]
-Where above [args...] is a placeholder for six command-line arguments:<train input> <index to word> <index to tag> <hmmprior> <hmmemit> <hmmtrans>
+Where above [args...] is a placeholder for six command-line arguments:'<train input> <index to word> <index to tag> <hmmprior> <hmmemit> <hmmtrans>'
 1. <train input>: path to the training input .txt file
 2. <index to word>: path to the .txt that specifies the dictionary mapping from words to indices. The tags are ordered by index, with the first word having index of 1, the second word having index of 2, etc.
 3. <index to tag>: path to the .txt that specifies the dictionary mapping from tags to indices. The tags are ordered by index, with the first tag having index of 1, the second tag having index of 2, etc.
