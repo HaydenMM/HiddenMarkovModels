@@ -1,4 +1,5 @@
-# learnhmm.py
+# Named entity recognition system using Hidden Markov Models
+## learnhmm.py
 ```python learnhmm.py [args...]``` \
 Where above [args...] is a placeholder for six command-line arguments: train input, index to word, index to tag, hmmprior, hmmemit, hmmtrans
 1. train input: path to the training input .txt file
@@ -8,7 +9,7 @@ Where above [args...] is a placeholder for six command-line arguments: train inp
 5. hmmemit: path to output .txt file to which the emission probabilities (B) will be written. The file output to this path should be in the same format as the handout hmmemit.txt
 6. hmmtrans: path to output .txt file to which the transition probabilities (A) will be written. The file output to this path should be in the same format as the handout hmmtrans.txt
 
-# forwardbackward.py
+## forwardbackward.py
 ```python forwardbackward.py [args...]``` \
 Where above [args...] is a placeholder for seven command-line arguments:test input, index to word, index to tag, hmmprior, hmmemit, hmmtrans, predicted file, metric file
 1. test input: path to the test input .txt file that will be evaluated by your forward backward algorithm
