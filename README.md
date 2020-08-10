@@ -1,5 +1,5 @@
 # learnhmm.py
-```python learnhmm.py [args...]``` /
+```python learnhmm.py [args...]``` \
 Where above [args...] is a placeholder for six command-line arguments: train input, index to word, index to tag, hmmprior, hmmemit, hmmtrans
 1. train input: path to the training input .txt file
 2. index to word: path to the .txt that specifies the dictionary mapping from words to indices. The tags are ordered by index, with the first word having index of 1, the second word having index of 2, etc.
@@ -9,7 +9,7 @@ Where above [args...] is a placeholder for six command-line arguments: train inp
 6. hmmtrans: path to output .txt file to which the transition probabilities (A) will be written. The file output to this path should be in the same format as the handout hmmtrans.txt
 
 # forwardbackward.py
-```python forwardbackward.py [args...]``` /
+```python forwardbackward.py [args...]``` \
 Where above [args...] is a placeholder for seven command-line arguments:test input, index to word, index to tag, hmmprior, hmmemit, hmmtrans, predicted file, metric file
 1. test input: path to the test input .txt file that will be evaluated by your forward backward algorithm
 2. index to word: path to the .txt that specifies the dictionary mapping from words to indices. The tags are ordered by index, with the first word having index of 1, the second word having index of 2, etc. This is the same file as was described for learnhmm.{py|java|cpp|m}.
